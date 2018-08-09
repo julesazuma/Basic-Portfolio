@@ -1,0 +1,49 @@
+body {
+    background-color: goldenrod;
+}
+h1 {
+    color: royalblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 250%;
+    margin-top: 50px;
+    text-align: center
+}
+a {
+    float: right;
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: royalblue;
+}
+
+h2{
+    color: white;
+    text-align: unset;
+    font-size: 150%;
+    margin-top: 150px;
+}
+
+img {
+    height: 400px;
+    width: 350px;
+    float: left;
+    margin-top: 150px;
+    margin-right: 150px;
+    margin-left: 100px;
+}
+p {
+    background-color: goldenrod;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%;
+}
+.bio {
+    float: unset;
+    background-color: goldenrod;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%;
+}
+.works {
+    margin-left: 100px;
+}
