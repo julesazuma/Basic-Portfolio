@@ -1,6 +1,8 @@
 body {
+    /* width: 960px; */
     background-color: goldenrod;
 }
+
 h1 {
     color: royalblue;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -8,8 +10,10 @@ h1 {
     margin-top: 50px;
     text-align: center
 }
+
 a {
     float: right;
+    padding-right: 50px;
     margin-left: 25px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
@@ -19,8 +23,9 @@ a {
 h2{
     color: white;
     text-align: unset;
-    font-size: 150%;
+    font-size: 175%;
     margin-top: 150px;
+    margin-left: 50px;
 }
 
 img {
@@ -29,21 +34,37 @@ img {
     float: left;
     margin-top: 150px;
     margin-right: 150px;
-    margin-left: 100px;
+    margin-left: 50px;
+    border-top-style: groove;
+    border-left-style: groove;
+    border-right-style: groove;
+    border-bottom-style: groove;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    border-color: royalblue;
 }
-p {
+
+ul {
     background-color: goldenrod;
     color:white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 110%;
+    padding-top: 150px;
+    margin-left: 50px;
 }
+
 .bio {
     float: unset;
     background-color: goldenrod;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 110%;
+    margin-right: 50px;
+
 }
+
 .works {
-    margin-left: 100px;
+    margin-left: 50px;
 }
