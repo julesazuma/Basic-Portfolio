@@ -6,16 +6,16 @@ header {
     color: ivory;
 }
 
-body {
-    background-color: goldenrod;
-}
-
 h1 {
     color: ivory;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 200%;
     display: block;
     float: left;
+}
+
+body {
+    background-color: goldenrod;
 }
 
 a {
@@ -44,13 +44,8 @@ img {
     border-color: royalblue;
 }
 
-ul {
-    background-color: goldenrod;
-    color: ivory;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 110%;
-    padding-top: 150px;
-    margin-left: 50px;
+nav {
+    clear: left;
 }
 
 .bio {
@@ -59,11 +54,22 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 110%;
     line-height: 25px;
-
 }
 
 .works {
     margin: 15px;
+    color: ivory;
+    font-size: 175%;
+}
+
+.works2 {
+    margin: 100px;
+    color: ivory;
+    font-size: 175%;
+}
+
+.works3 {
+    margin: 50px;
     color: ivory;
     font-size: 175%;
 }
@@ -76,38 +82,35 @@ a:hover {
     width: 960px;
     margin: 0 auto;
     padding: 35px;
-
 }
+
+.container2 {
+    width: 580px;
+    margin: 0 auto;
+    padding: 35px;
+}
+
 .links {
     float: right;
 }
-footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        background-color: royalblue;
-        color: ivory;
-        text-align: center;
 
-}
-nav {
-    clear: both;
-}
-
-.works2 {
-    margin: 100px;
-    color: ivory;
-    font-size: 175%;
-
-}
-
-.works3 {
-    margin: 100px;
-    color: ivory;
-    font-size: 175%;
-}
 .padding {
     padding: 100px;
+}
 
+.box {
+    box-sizing: border-box;
+    float: left;
+    width: 33.33%; 
+    padding: 50px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: royalblue;
+    color: ivory;
+    text-align: center;
 }
