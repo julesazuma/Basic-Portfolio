@@ -3,11 +3,11 @@ header {
     top: 0;
     width: 100%;
     background-color: royalblue;
-    color: ivory;
+    color: black;
 }
 
 h1 {
-    color: ivory;
+    color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 200%;
     display: block;
@@ -15,7 +15,7 @@ h1 {
 }
 
 body {
-    background-color: goldenrod;
+    background-color: whitesmoke;
 }
 
 a {
@@ -23,7 +23,7 @@ a {
     margin-left: 25px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    color: ivory;
+    color: black;
     display: inline-block;
 }
 
@@ -50,7 +50,7 @@ nav {
 
 .bio {
     margin: 25px;
-    color: ivory;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 110%;
     line-height: 25px;
@@ -58,24 +58,26 @@ nav {
 
 .works {
     margin: 15px;
-    color: ivory;
-    font-size: 175%;
+    color: black;
+    font-size: 195%;
 }
 
 .works2 {
     margin: 100px;
-    color: ivory;
-    font-size: 175%;
+    color: black;
+    font-size: 195%;
 }
 
 .works3 {
+    padding: 30px;
     margin: 50px;
-    color: ivory;
-    font-size: 175%;
+    color: black;
+    font-size: 195%;
+    text-align: left;
 }
 
 a:hover {
-    color: chartreuse;
+    color: orange;
 }
 
 .container {
@@ -103,6 +105,12 @@ a:hover {
     float: left;
     width: 33.33%; 
     padding: 50px;
+    height: 500px;
+}
+
+.typebar {
+    line-height: 50px;
+    font-size: 25px;
 }
 
 footer {
@@ -111,6 +119,6 @@ footer {
     bottom: 0;
     width: 100%;
     background-color: royalblue;
-    color: ivory;
+    color: black;
     text-align: center;
 }
